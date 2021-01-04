@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container{
+    border: 2px;
+    width: 350px;
+    text-align: center;
+    margin: auto;
+}
+/*submit button*/
+.submit{
+    background: crimson;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 50px;
+    font-size: 25px;
+    outline: none;
+    position: relative;
+    color: #fff;
+}
+
+/* input section*/
+input{
+    padding: 10px;
+    border-radius: 5px;
+    outline-color: crimson;
+    background-color: cyan;
+    font-size: 25px;
+    color:#110eda;
+    margin-top: 50px;
+}
+
+/* header,footer section*/
+header,footer{
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+}
+
+footer span a{
+    color: crimson;
+    text-decoration: none;
+}
+
+footer span a:hover{
+    text-decoration: underline;
+}
+
+.container .button{
+    align-items: center;
+    margin: 50px auto;
+}
